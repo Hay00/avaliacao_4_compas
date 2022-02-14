@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AssociadosApplication<associados>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.compass.microservice.associados.AssociadosApplication",
+            "projectName": "associados",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PartidoApplication<partidos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.compass.microservice.partidos.PartidoApplication",
+            "projectName": "partidos",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.compass.eurekaserver.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": ""
+        }
+    ]
+}
